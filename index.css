@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(122, 122, 165);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner{
+    background-color: rgb(119, 233, 166);
+    height: 64px;
+    display: fixed;
+}
+.lists{
+    display: flex;
+    justify-content: flex-end;
+    
+    text-decoration: none;
+    flex-direction: row;
+    list-style-type: none;
+}
+.items{
+    margin: 0 32px 0 32px;
+}
+.portfolio{
+    background-color: indianred;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.picture{
+    height: 420px;
+    width: 385px;
+    padding: 8px 12px
+}
+.intro{
+    height: 50%;
+    text-align: center;
+    background-color:rgb(11, 149, 184);
+}
+.intro p{
+    font-size: medium;
+}
+.btn{
+    text-align: center;
+    background-color: rgb(92, 92, 236);
+    color: white;
+    height: 32px;
+    margin-top: 12px;
+    position: relative;
+    margin-left:35%;
+    width: 25%;
+    border-radius: 8px;
+}
+.footer{
+    height: 64px;
+}
+.portfolio h1{
+    text-align: center;
+}
